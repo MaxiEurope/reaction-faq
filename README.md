@@ -166,3 +166,11 @@ server](https://discord.gg/KwfCk7r)
 
 
 ### Got an unanswered question? Ask in our [support server](https://discord.gg/KwfCk7r)
+
+## 📢 Updates & Support
+
+- [support server](https://discord.gg/KwfCk7r)
+
+## 🤗 Support Development & Patreon
+
+- [patreon page](https://www.patreon.com/reaction_bot)
