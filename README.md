@@ -10,6 +10,9 @@
     <br>
     <br>
     <a href="https://discord.gg/KwfCk7r">Support server</a>
+    ·
+    <a href="https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot&permissions=347200">Add the
+        bot</a>
 </p>
 <br>
 <br>
@@ -22,6 +25,28 @@
 - 🔢 **Reaction bot** can calculate zoo stats and visualize huntbots.
 - 🔊 **Reaction bot** allows you to use custom OwO prefixes.
 - 📢 **Reaction bot** has a command for your own reminders.
+
+## 🚦 Status
+
+<p align="center">
+    <a href="https://top.gg/bot/519287796549156864">
+        <img src="https://top.gg/api/widget/status/519287796549156864.svg" alt="reaction bot 🎉" />
+    </a>
+    <a href="https://top.gg/bot/519287796549156864">
+        <img src="https://top.gg/api/widget/servers/519287796549156864.svg" alt="reaction bot 🎉" />
+    </a>
+    <a href="https://top.gg/bot/519287796549156864">
+        <img src="https://top.gg/api/widget/owner/519287796549156864.svg" alt="reaction bot 🎉" />
+    </a>
+</p>
+
+## 📢 Updates & Support
+
+- [support server](https://discord.gg/KwfCk7r)
+
+## 🤗 Support Development & Patreon
+
+- [patreon page](https://www.patreon.com/reaction_bot)
 
 ## 🤔 FAQ
 
@@ -60,7 +85,7 @@
 
 ### My huntbot reminder doesn't work, help??
 
-- [first step](https://github.com/MaxiEurope/reaction-faq#step-one-)
+- [first step](https://github.com/MaxiEurope/reaction-faq#step-one)
 - make sure you are the only person in the server with that name
 - remove the __backtick__ ` from your name if you have one
 - if you have closed DMs, then set a reminder channel using `!r owohb #channel`
@@ -69,7 +94,7 @@ server](https://discord.gg/KwfCk7r) and we'll be happy to help you
 
 ### Reaction doesn't respond to my commands??
 
-- [first step](https://github.com/MaxiEurope/reaction-faq#step-one-)
+- [first step](https://github.com/MaxiEurope/reaction-faq#step-one)
 - @mention it and use the correct prefix `!r`
 - the bot might be offline / restarting, check later with `!r ping`
 - your server is in a broken shard, kick and [re-add the
@@ -121,7 +146,8 @@ server](https://discord.gg/KwfCk7r)
 
 ### Why is there a snail reaction on my message?
 
-- this is an indicator that you're on a command cooldown, just wait and get familiar with the command cooldown by doing `!r help command`
+- this is an indicator that you're on a command cooldown, just wait and get familiar with the command cooldown by doing
+`!r help command`
 
 ### Why is XYZ command cooldown so high??
 
@@ -133,17 +159,21 @@ server](https://discord.gg/KwfCk7r)
 - the `-radar` tag allows you to set a radar lvl, up to 1k
 - the `-patreon` tag allows you to get patreon animals
 - friendly reminder: this is just a visualizer and the shown animals will not get added to your zoo
-- you can set a max of 5760 animals 
+- you can set a max of 5760 animals
 
 ### How does the owostats command work?
 
-- enable the owohunt reminder for example (`!r owoh on`), and the number in the **grinding** field will increase every time you get mentioned by the bot
+- enable the owohunt reminder for example (`!r owoh on`), and the number in the **grinding** field will increase every
+time you get mentioned by the bot
 
 ### How does the zoo command work?
 
 - do `owo zoo` or `owo zoo display` (if you sold your animals recently) in a channel
-- visit discord's [Where can I find my User/Server/Message ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) article and read
-- after enabling the developer mode on your device/platfrom.. whatever, copy the message ID of your zoo (if your zoo has more than one message, then copy each message ID) and do `!r zoo MESSAGE_ID`
+- visit discord's [Where can I find my User/Server/Message
+ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) article and
+read
+- after enabling the developer mode on your device/platfrom.. whatever, copy the message ID of your zoo (if your zoo has
+more than one message, then copy each message ID) and do `!r zoo MESSAGE_ID`
 - example for **1 message zoo**
 <a href="https://github.com/MaxiEurope/reaction-faq">
     <img src="./assets/zoosingle.png" width="550">
@@ -161,16 +191,9 @@ server](https://discord.gg/KwfCk7r)
 - example 1.: `!r rm owo daily in 1day`, example 2.: `!r rm do homework and read a book in 1 week and 20 h`
 
 - delete your reminder by doing `!r rm delete ID`, get your reminder ID by doing `!r rm list`
-- you can set a timezone for the reminder list by looking up your timezone [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+- you can set a timezone for the reminder list by looking up your timezone
+[here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 - you can now set your timezone by doing `!r rm timezone Australia/Melbourne` for example
 
 
 ### Got an unanswered question? Ask in our [support server](https://discord.gg/KwfCk7r)
-
-## 📢 Updates & Support
-
-- [support server](https://discord.gg/KwfCk7r)
-
-## 🤗 Support Development & Patreon
-
-- [patreon page](https://www.patreon.com/reaction_bot)
