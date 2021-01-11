@@ -4,15 +4,13 @@
     </a>
 </p>
 
-<h1 align="center">Reaction bot🎉 - FAQ & Tutorials</h1>
-<p align="center">Reaction bot is the best utility bot for OwO - stats, zoo calculator, reminders, quest system and much
-    more!
+<h1 align="center">Reaction bot🎉 - FAQ</h1>
+<p align="center">Reaction bot is the best utility bot for OwO - stats, zoo calculator, reminders, quest system and much more!
     <br>
     <br>
     <a href="https://discord.gg/KwfCk7r">Support server</a>
     ·
-    <a href="https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot&permissions=347200">Add the
-        bot</a>
+    <a href="https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot&permissions=347200">Add the bot</a>
 </p>
 <br>
 <br>
@@ -29,13 +27,13 @@
 ## 🚦 Status
 
 <p align="center">
-    <a href="https://top.gg/bot/519287796549156864">
+    <a href="https://top.gg/bot/519287796549156864" target="_blank">
         <img src="https://top.gg/api/widget/status/519287796549156864.svg" alt="reaction bot 🎉" />
     </a>
-    <a href="https://top.gg/bot/519287796549156864">
+    <a href="https://top.gg/bot/519287796549156864" target="_blank">
         <img src="https://top.gg/api/widget/servers/519287796549156864.svg" alt="reaction bot 🎉" />
     </a>
-    <a href="https://top.gg/bot/519287796549156864">
+    <a href="https://top.gg/bot/519287796549156864" target="_blank">
         <img src="https://top.gg/api/widget/owner/519287796549156864.svg" alt="reaction bot 🎉" />
     </a>
 </p>
@@ -48,6 +46,14 @@
 
 - [patreon page](https://www.patreon.com/reaction_bot)
 
+## 🛠️ Commands
+
+<p>
+    <a href="https://github.com/MaxiEurope/reaction-faq">
+        <img src="./assets/help.png" width="800" />
+    </a>
+</p>
+
 ## 🤔 FAQ
 
 ### STEP ONE
@@ -57,6 +63,7 @@
 ### How do I set & update OwO prefix?
 
 - type `owo prefix` in your channel
+
 <a href="https://github.com/MaxiEurope/reaction-faq">
     <img src="./assets/owoprefix.png" width="750">
 </a>
@@ -89,16 +96,14 @@
 - make sure you are the only person in the server with that name
 - remove the __backtick__ ` from your name if you have one
 - if you have closed DMs, then set a reminder channel using `!r owohb #channel`
-- if you have **open DMs** and you **don't see** a "⏰" reaction on your huntbot message, then [join our support
-server](https://discord.gg/KwfCk7r) and we'll be happy to help you
+- if you have **open DMs** and you **don't see** a "⏰" reaction on your huntbot message, then [join our support server](https://discord.gg/KwfCk7r) and we'll be happy to help you
 
 ### Reaction doesn't respond to my commands??
 
 - [first step](https://github.com/MaxiEurope/reaction-faq#step-one)
 - @mention it and use the correct prefix `!r`
 - the bot might be offline / restarting, check later with `!r ping`
-- your server is in a broken shard, kick and [re-add the
-bot](https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot&permissions=347200)
+- your server is in a broken shard, kick and [re-add the bot](https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot&permissions=347200)
 - if you were spamming **5+ reaction bot commands in 5 seconds**, then you're **temp-blacklisted for 5 minutes** - wait
 - if the bot is still not responding, then you're banned
 
@@ -115,16 +120,14 @@ bot](https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot
 ### How does the quest system work??
 
 - if you're a **server owner**, then set a quest channel by doing `!r q channel #channel`
-- you can remove the quest channel by doing `!r q channel remove` - removing the quest channel will disable the quest
-system
+- you can remove the quest channel by doing `!r q channel remove` - removing the quest channel will disable the quest system
 - you can add/remove quest managers by doing `!r q managers add @User` / `!r q managers remove @User`
 - quest managers will be able to remove quests by ID, ban (blacklist users from using this system) and unban users
 
 <br>
 
 - if you're a **quest manager**, then you can remove quests by ID and ban & unban users from the quest system
-- you can remove a quest by doing `!r q remove ID`, replace ID with the quest ID that can be found
-[here](./assets/questid.png)
+- you can remove a quest by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](./assets/questid.png)
 - you can ban/unban users from using the quest system by doing `!r q ban @User` / `!r q unban @User`
 
 <br>
@@ -132,8 +135,7 @@ system
 - everyone else including server owner & managers can add their own quest to the list by doing `!r q add type amount`
 - available "types": [cookie](./assets/questaddcookie) | [pray](./assets/questaddpray) | [curse](./assets/questaddcurse)
 - you can add a max of 3 quests
-- you can remove **your quest** by doing `!r q remove ID`, replace ID with the quest ID that can be found
-[here](./assets/questid.png)
+- you can remove **your quest** by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](./assets/questid.png)
 
 ### I gave @User a cookie, but the quest didn't update??
 
@@ -141,13 +143,11 @@ system
 
 ### I found an error / bug in the quest system, help?
 
-- the quest system is fairly new, please report any bugs by doing `!r report` or by joining our [support
-server](https://discord.gg/KwfCk7r)
+- the quest system is fairly new, please report any bugs by doing `!r report` or by joining our [support server](https://discord.gg/KwfCk7r)
 
 ### Why is there a snail reaction on my message?
 
-- this is an indicator that you're on a command cooldown, just wait and get familiar with the command cooldown by doing
-`!r help command`
+- this is an indicator that you're on a command cooldown, just wait and get familiar with the command cooldown by doing `!r help command`
 
 ### Why is XYZ command cooldown so high??
 
@@ -163,23 +163,22 @@ server](https://discord.gg/KwfCk7r)
 
 ### How does the owostats command work?
 
-- enable the owohunt reminder for example (`!r owoh on`), and the number in the **grinding** field will increase every
-time you get mentioned by the bot
+- enable the owohunt reminder for example (`!r owoh on`), and the number in the **grinding** field will increase every time you get mentioned by the bot
 
 ### How does the zoo command work?
 
 - do `owo zoo` or `owo zoo display` (if you sold your animals recently) in a channel
-- visit discord's [Where can I find my User/Server/Message
-ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) article and
-read
-- after enabling the developer mode on your device/platfrom.. whatever, copy the message ID of your zoo (if your zoo has
-more than one message, then copy each message ID) and do `!r zoo MESSAGE_ID`
+- visit discord's [Where can I find my User/Server/Message ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) article and read
+- after enabling the developer mode on your device/platfrom.. whatever, copy the message ID of your zoo (if your zoo has more than one message, then copy each message ID) and do `!r zoo MESSAGE_ID`
+
 - example for **1 message zoo**
+
 <a href="https://github.com/MaxiEurope/reaction-faq">
     <img src="./assets/zoosingle.png" width="550">
 </a>
 
 - example for **multi message zoo**
+
 <a href="https://github.com/MaxiEurope/reaction-faq">
     <img src="./assets/zoomultiple.png" width="800">
 </a>
@@ -191,8 +190,7 @@ more than one message, then copy each message ID) and do `!r zoo MESSAGE_ID`
 - example 1.: `!r rm owo daily in 1day`, example 2.: `!r rm do homework and read a book in 1 week and 20 h`
 
 - delete your reminder by doing `!r rm delete ID`, get your reminder ID by doing `!r rm list`
-- you can set a timezone for the reminder list by looking up your timezone
-[here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+- you can set a timezone for the reminder list by looking up your timezone [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 - you can now set your timezone by doing `!r rm timezone Australia/Melbourne` for example
 
 
