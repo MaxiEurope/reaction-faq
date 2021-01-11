@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">Reaction bot🎉 - FAQ</h1>
-<p align="center">Reaction bot is the best utility bot for OwO - stats, zoo calculator, reminders, quest system and much more!
+<p align="center">Reaction bot is the best utility bot for OwO - stats, zoo calculator, reminders, quest system, and much more!
     <br>
     <br>
     <a href="https://discord.gg/KwfCk7r">Support server</a>
