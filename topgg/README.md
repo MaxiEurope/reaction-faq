@@ -13,6 +13,9 @@
     <a href="https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot&permissions=347200">Add the bot</a>
 </p>
 <br>
+<p align="center">
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMaxiEurope%2Freaction-faq&count_bg=%237289DA&title_bg=%237289DA&title=FAQ+visits&edge_flat=false"/></a>
+</p>
 <br>
 
 ## ✨ Features
@@ -57,10 +60,11 @@
 ## 🤔 FAQ
 
 ### STEP ONE
+
 - make sure reaction bot has permission to view the channel & send messages
 <br>
 
-### How do I set & update OwO prefix?
+### How do I set & update the OwO prefix?
 
 - type `owo prefix` in your channel
 
@@ -71,7 +75,7 @@
 ### How do I enable OwO reminders?
 
 - type `!r owoh on` and `!r owopray on`
-- additionally, you can do `!r owo on` to get mentioned every 10 seconds
+- you can also do `!r owo on` to get mentioned every 10 seconds
 
 ### How do I disable OwO reminders?
 
@@ -79,12 +83,12 @@
 
 ### I don't want ghostpings, what do I do?
 
-- type `!r owo delete`, works for the `owoh`, `owopray` and `custom` command aswell
+- type `!r owo delete`, works for the `!r owoh`, `!r owopray` and `!r custom` command aswell
 
 ### How do I enable / disable the huntbot reminder?
 
-⚠️ this reminder is enabled by default
-- `!r owohb on` / `!r owohb off`
+- `!r owohb on` to enable (enabled by default)
+- `!r owohb off` to disable
 
 ### How do I set / clear a huntbot channel?
 
@@ -93,10 +97,10 @@
 ### My huntbot reminder doesn't work, help??
 
 - [first step](https://github.com/MaxiEurope/reaction-faq#step-one)
-- make sure you are the only person in the server with that name
+- make sure you are the only person in the server with that name (no alts)
 - remove the __backtick__ ` from your name if you have one
 - if you have closed DMs, then set a reminder channel using `!r owohb #channel`
-- if you have **open DMs** and you **don't see** a "⏰" reaction on your huntbot message, then [join our support server](https://discord.gg/KwfCk7r) and we'll be happy to help you
+- if you have **open DMs** and you **don't see** a "⏰" reaction on your huntbot message, then you might want to [join our support server](https://discord.gg/KwfCk7r) and we'll be happy to help you
 
 ### Reaction doesn't respond to my commands??
 
@@ -104,8 +108,8 @@
 - @mention it and use the correct prefix `!r`
 - the bot might be offline / restarting, check later with `!r ping`
 - your server is in a broken shard, kick and [re-add the bot](https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot&permissions=347200)
-- if you were spamming **5+ reaction bot commands in 5 seconds**, then you're **temp-blacklisted for 5 minutes** - wait
-- if the bot is still not responding, then you're banned
+- if you were spamming reaction bot commands then you're very likely temp-blacklisted - just wait a few minutes
+- if the bot is still not responding then you're banned
 
 ### How do I get some in-depth help on a specific command?
 
@@ -119,27 +123,28 @@
 
 ### How does the quest system work??
 
-- if you're a **server owner**, then set a quest channel by doing `!r q channel #channel`
+- set a quest channel by doing `!r q channel #channel` if you're the **server owner**
 - you can remove the quest channel by doing `!r q channel remove` - removing the quest channel will disable the quest system
 - you can add/remove quest managers by doing `!r q managers add @User` / `!r q managers remove @User`
 - quest managers will be able to remove quests by ID, ban (blacklist users from using this system) and unban users
 
 <br>
 
-- if you're a **quest manager**, then you can remove quests by ID and ban & unban users from the quest system
+- if you're a **quest manager** then you can remove quests by IDs and ban & unban users from the quest system
 - you can remove a quest by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](https://raw.githubusercontent.com/MaxiEurope/reaction-faq/main/assets/questid.png)
 - you can ban/unban users from using the quest system by doing `!r q ban @User` / `!r q unban @User`
+- you can edit the quest progress by doing `!r q edit ID value`
 
 <br>
 
-- everyone else including server owner & managers can add their own quest to the list by doing `!r q add type amount`
+- everyone else including server owners & managers can add their own quest to the list by doing `!r q add type amount`
 - available "types": [cookie](https://raw.githubusercontent.com/MaxiEurope/reaction-faq/main/assets/questaddcookie) | [pray](https://raw.githubusercontent.com/MaxiEurope/reaction-faq/main/assets/questaddpray) | [curse](https://raw.githubusercontent.com/MaxiEurope/reaction-faq/main/assets/questaddcurse)
 - you can add a max of 3 quests
 - you can remove **your quest** by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](https://raw.githubusercontent.com/MaxiEurope/reaction-faq/main/assets/questid.png)
 
 ### I gave @User a cookie, but the quest didn't update??
 
-- the bot will only update quests in the quest channel, that's what it is for
+- the bot will only update quests in the quest channel
 
 ### I found an error / bug in the quest system, help?
 
@@ -148,10 +153,11 @@
 ### Why is there a snail reaction on my message?
 
 - this is an indicator that you're on a command cooldown, just wait and get familiar with the command cooldown by doing `!r help command`
+- spamming commands while being on cooldown will get you temp-blacklisted
 
 ### Why is XYZ command cooldown so high??
 
-- this bot is being used by many users, decreasing the cooldown would ratelimit the bot and make it even more slower
+- reaction bot is being used by many users at the same time, decreasing the cooldown would rate-limit the bot and make it even more slower
 
 ### How does the hb command work?
 
@@ -160,6 +166,7 @@
 - the `-patreon` tag allows you to get patreon animals
 - friendly reminder: this is just a visualizer and the shown animals will not get added to your zoo
 - you can set a max of 5760 animals
+- example: `!r hb 5760 -patreon -250` (5760 animals, patreon animals, radar lvl 250)
 
 ### How does the owostats command work?
 
@@ -167,11 +174,11 @@
 
 ### How does the zoo command work?
 
-- do `owo zoo` or `owo zoo display` (if you sold your animals recently) in a channel
+- do `owo zoo` (`owo zoo display` if you sold your animals recently)
 - visit discord's [Where can I find my User/Server/Message ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) article and read
-- after enabling the developer mode on your device/platfrom.. whatever, copy the message ID of your zoo (if your zoo has more than one message, then copy each message ID) and do `!r zoo MESSAGE_ID`
+- after enabling the developer mode on your device/platform.. whatever, copy the message ID of your zoo (or multiple message IDs if your zoo has more than one message) and do `!r zoo MESSAGE_ID`
 
-- example for **1 message zoo**
+- example for **a single message zoo**
 
 <a href="https://github.com/MaxiEurope/reaction-faq">
     <img src="https://raw.githubusercontent.com/MaxiEurope/reaction-faq/main/assets/zoosingle.png" width="550">
