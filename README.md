@@ -11,6 +11,10 @@
     <a href="https://discord.gg/KwfCk7r">Support server</a>
     ·
     <a href="https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot&permissions=347200">Add the bot</a>
+    ·
+    <a href="https://github.com/MaxiEurope/reaction-faq/blob/main/terms_of_service.md">ToS</a>
+    ·
+    <a href="https://github.com/MaxiEurope/reaction-faq/blob/main/privacy_policy.md">Privacy Policy</a>
 </p>
 <br>
 <p align="center">
