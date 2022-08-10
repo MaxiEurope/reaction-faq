@@ -57,7 +57,7 @@
 
 <p>
     <a href="https://github.com/MaxiEurope/reaction-faq">
-        <img src="./assets/help.png" width="800" />
+        <img src="https://github.com/MaxiEurope/reaction-faq/blob/main/assets/help.png?raw=true" width="800" />
     </a>
 </p>
 
@@ -73,7 +73,7 @@
 - type `owo prefix` in your channel
 
 <a href="https://github.com/MaxiEurope/reaction-faq">
-    <img src="./assets/owoprefix.png" width="750">
+    <img src="https://github.com/MaxiEurope/reaction-faq/blob/main/assets/owoprefix.png?raw=true" width="750">
 </a>
 
 ### How do I enable OwO reminders?
@@ -135,16 +135,16 @@
 <br>
 
 - if you're a **quest manager** then you can remove quests by IDs and ban & unban users from the quest system
-- you can remove a quest by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](./assets/questid.png)
+- you can remove a quest by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questid.png?raw=true)
 - you can ban/unban users from using the quest system by doing `!r q ban @User` / `!r q unban @User`
 - you can edit the quest progress by doing `!r q edit ID value`
 
 <br>
 
 - everyone else including server owners & managers can add their own quest to the list by doing `!r q add type amount`
-- available "types": [cookie](./assets/questaddcookie) | [pray](./assets/questaddpray) | [curse](./assets/questaddcurse)
+- available "types": [cookie](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questaddcookie?raw=true) | [pray](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questaddpray?raw=true) | [curse](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questaddcurse?raw=true)
 - you can add a max of 3 quests
-- you can remove **your quest** by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](./assets/questid.png)
+- you can remove **your quest** by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questid.png?raw=true)
 
 ### I gave @User a cookie, but the quest didn't update??
 
@@ -185,13 +185,13 @@
 - example for **a single message zoo**
 
 <a href="https://github.com/MaxiEurope/reaction-faq">
-    <img src="./assets/zoosingle.png" width="550">
+    <img src="https://github.com/MaxiEurope/reaction-faq/blob/main/assets/zoosingle.png?raw=true" width="550">
 </a>
 
 - example for **multi message zoo**
 
 <a href="https://github.com/MaxiEurope/reaction-faq">
-    <img src="./assets/zoomultiple.png" width="800">
+    <img src="https://github.com/MaxiEurope/reaction-faq/blob/main/assets/zoomultiple.png?raw=true" width="800">
 </a>
 
 ### How does the reminder command work?
