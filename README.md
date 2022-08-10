@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/MaxiEurope/reaction-faq">
-        <img src="./assets/reaction.png" width="128" height="128">
+        <img src="https://github.com/MaxiEurope/reaction-faq/blob/main/assets/reaction.png?raw=true" width="128" height="128">
     </a>
 </p>
 
