@@ -25,9 +25,11 @@
 ## ✨ Features
 
 - 🏓 **Reaction bot** mentions you when you can hunt/battle again.
-- 🎨 **Reaction bot** allows you to set custom reminders for owo patreon commands.
-- 📜 **Reaction bot** has a quest system - managing quests is now way easier.
+- 🎨 **Reaction bot** allows you to set custom (✨embed✨) reminders for owo commands.
+- 📜 **Reaction bot** has a an automatic quest system - managing quests is now way easier.
+- 🥇 **Reaction bot** has an OwO counting system with leaderboards.
 - 🔢 **Reaction bot** can calculate zoo stats and visualize huntbots.
+- 🌱 **Reaction bot** has a huge dataset of custom patreon animals you can use to lookup animals.
 - 🔊 **Reaction bot** allows you to use custom OwO prefixes.
 - 📢 **Reaction bot** has a command for your own reminders.
 
@@ -47,11 +49,14 @@
 
 ## 📢 Updates & Support
 
-- [support server](https://discord.gg/KwfCk7r)
+- [support server](https://discord.gg/KwfCk7r)-
+- updates are usually being released on weekends
 
-## 🤗 Support Development & Patreon
+## 🤗 Support Development & Patreon | get custom reminders
 
 - [patreon page](https://www.patreon.com/reaction_bot)
+- [BuyMeACoffee](https://www.buymeacoffee.com/MaxiEurope)
+- [ko-fi](https://ko-fi.com/maxieurope)
 
 ## 🛠️ Commands
 
@@ -66,7 +71,6 @@
 ### STEP ONE
 
 - make sure reaction bot has permission to view the channel & send messages
-<br>
 
 ### How do I set & update the OwO prefix?
 
@@ -78,33 +82,30 @@
 
 ### How do I enable OwO reminders?
 
-- type `!r owoh on` and `!r owopray on`
-- you can also do `!r owo on` to get mentioned every 10 seconds
+- type `!r owo` / `!r hunt` / `!r pray`
+- click the first red button - it should turn green and a checkmark appears
 
 ### How do I disable OwO reminders?
 
-- type `!r owo off` / `!r owoh off` / `!r owopray off`
+- type `!r owo` / `!r hunt` / `!r pray`
+- click the first green button - it should turn red and a crossmark appears
 
-### I don't want ghostpings, what do I do?
+### I don't want to get pinged, what do I do?
 
-- type `!r owo delete`, works for the `!r owoh`, `!r owopray` and `!r custom` command aswell
+- type `!r owo` / `!r hunt` / `!r pray` / `!r custom delete`
+- click the 🗑️ trash button
 
 ### How do I enable / disable the huntbot reminder?
 
 - `!r owohb on` to enable (enabled by default)
 - `!r owohb off` to disable
 
-### How do I set / clear a huntbot channel?
-
-- `!r owohb #channel` (mention a channel) / `!r owohb remove`
-
 ### My huntbot reminder doesn't work, help??
 
 - [first step](https://github.com/MaxiEurope/reaction-faq#step-one)
 - make sure you are the only person in the server with that name (no alts)
-- remove the __backtick__ ` from your name if you have one
-- if you have closed DMs, then set a reminder channel using `!r owohb #channel`
-- if you have **open DMs** and you **don't see** a "⏰" reaction on your huntbot message, then you might want to [join our support server](https://discord.gg/KwfCk7r) and we'll be happy to help you
+- make sure to have your **DMS open**
+- if you **don't see** a "⏰" reaction on your huntbot message, then you might want to [join our support server](https://discord.gg/KwfCk7r) and we'll help you
 
 ### Reaction doesn't respond to my commands??
 
@@ -117,7 +118,7 @@
 
 ### How do I get some in-depth help on a specific command?
 
-- `!r help command`, replace `command` with an actual command name - `!r help owoh` for example
+- `!r help command`, replace `command` with an actual command name - `!r help quest` for example
 
 ### How do I enable certain custom owo patreon commands?
 
@@ -125,25 +126,19 @@
 - you can find a list of valid __commands__ by doing `!r custom`
 - disable/remove commands by doing `!r custom remove piku`
 
-### How does the quest system work??
+### How do I set up the automatic quest system?
 
-- set a quest channel by doing `!r q channel #channel` if you're the **server owner**
-- you can remove the quest channel by doing `!r q channel remove` - removing the quest channel will disable the quest system
-- you can add/remove quest managers by doing `!r q managers add @User` / `!r q managers remove @User`
-- quest managers will be able to remove quests by ID, ban (blacklist users from using this system) and unban users
+- set a quest channel by doing `!r s questchannel #channel` if you're a **server admin**
+- set a staff (quest manager) role using `!r s queststaff @Role`
+- quest managers can remove/edit quest, customize the embed, manage quest bans
 
-<br>
+### How do I add my quest to the quest list?
 
-- if you're a **quest manager** then you can remove quests by IDs and ban & unban users from the quest system
-- you can remove a quest by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questid.png?raw=true)
-- you can ban/unban users from using the quest system by doing `!r q ban @User` / `!r q unban @User`
-- you can edit the quest progress by doing `!r q edit ID value`
+- saying `owo quest` in the quest channel automatically adds the quest to the list.
+- you can lock your quest using `owo quest lock X` if you don't want your quest to show up
 
-<br>
+### TMP
 
-- everyone else including server owners & managers can add their own quest to the list by doing `!r q add type amount`
-- available "types": [cookie](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questaddcookie?raw=true) | [pray](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questaddpray?raw=true) | [curse](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questaddcurse?raw=true)
-- you can add a max of 3 quests
 - you can remove **your quest** by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questid.png?raw=true)
 
 ### I gave @User a cookie, but the quest didn't update??
