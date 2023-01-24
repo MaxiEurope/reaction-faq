@@ -108,6 +108,18 @@
 - make sure to have your **DMS open**
 - if you **don't see** a "⏰" reaction on your huntbot message, then you might want to [join our support server](https://discord.gg/KwfCk7r) and we'll help you
 
+### How do I enable OwO, hunt/battle, pray/curse counting / leaderboard?
+
+- `!r s count` to enable counting
+
+### How do I list a specific leaderboard?
+
+- `!r h t` to see examples
+
+### How do I enable the weapon reaction (max quality) for OwO weapons?
+
+- do `!r s w` and `!r s s` (for the shop command as well)
+
 ### How do I enable certain custom owo patreon commands?
 
 - type `!r custom add command`, for example `!r custom add piku`
@@ -168,6 +180,25 @@
 
 - delete your reminder by doing `!r rm delete ID`, get your reminder ID by doing `!r rm list`
 
+### How do I customize reminder messages?
+
+- you can customize server reminders (apply to all server members) using `!r s owo`, `!r s hunt`, `!r s pray`
+
+- you can also customize your own reminders (globally) using the `!r gift` command
+- you win reminders via [voting](https://top.gg/bot/519287796549156864/vote) or by supporting reaction bot [here](https://github.com/MaxiEurope/reaction-faq#-support-development--patreon--get-custom-reminders)
+
+- redeem your reminder using `!r g redeem ID` after obtaining one
+- you can then customize your reminder message using `!r g update your_message_goes_here`
+- you can use the emoji link if you don't have nitro for animated emojis
+
+![gift command emoji link example](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/gift_cmd_emoji_link.png?raw=true)
+
+### What are reminder variables?
+
+- variables in reminders get replaced by the bot
+- {USER} for instance will be replaced with your @User mention
+- {GOAL} with your custom goal (`!r owo goal` for example)
+
 ### Reaction doesn't respond to my commands??
 
 - [first step](https://github.com/MaxiEurope/reaction-faq#step-one)
@@ -185,6 +216,13 @@
 - you can also remove the default `!r` prefix using `!r s default`
 - ping the bot and use its @mention (@reaction s prefix) if you forgot your custom prefix
 - use `@reaction s default` if you accidentally disabled the default prefix
+
+### How do I disable reaction bot commands / reminders from a channel?
+
+- `!r disable all` to disable ALL commands and reminders in your current channel
+- you can #mention a channel to manage some other channels too
+- disable specific commands/reminders using `!r disable help ping`/`!r disable r owo hunt`
+- use `!r h disable` for more examples
 
 ### How do I get some in-depth help on a specific command?
 
