@@ -24,14 +24,14 @@
 
 ## ✨ Features
 
-- 🏓 **Reaction bot** mentions you when you can hunt/battle again.
-- 🎨 **Reaction bot** allows you to set custom (✨embed✨) reminders for owo commands.
-- 📜 **Reaction bot** has a an automatic quest system - managing quests is now way easier.
-- 🥇 **Reaction bot** has an OwO counting system with leaderboards.
-- 🔢 **Reaction bot** can calculate zoo stats and visualize huntbots.
-- 🌱 **Reaction bot** has a huge dataset of custom patreon animals you can use to lookup animals.
-- 🔊 **Reaction bot** allows you to use custom OwO prefixes.
-- 📢 **Reaction bot** has a command for your own reminders.
+- 🏓 mentions you when you can hunt/battle, pray/curse, say OwO again.
+- 🎨 allows you to set custom (✨embed✨) reminders for owo commands.
+- 📜 has a an automatic quest system - managing quests is now way easier.
+- 🥇 has an OwO counting system with leaderboards.
+- 🔢 can calculate zoo stats and visualize huntbots.
+- 🌱 has a huge dataset of custom patreon animals you can use to lookup animals.
+- 🔊 allows you to use custom OwO prefixes.
+- 📢 has a command for your own reminders.
 
 ## 🚦 Status
 
@@ -97,28 +97,16 @@
 
 ### How do I enable / disable the huntbot reminder?
 
-- `!r owohb on` to enable (enabled by default)
-- `!r owohb off` to disable
+- `!r owohb` and click the button to enable/disable (enabled by default)
 
 ### My huntbot reminder doesn't work, help??
 
-- [first step](https://github.com/MaxiEurope/reaction-faq#step-one)
+- saying `owo prefix` in your server will fix it
+- ake sure the bot has access to the channel you want to use the bot
+- give the bot both **Read Messages** and **Send Messages** permission
 - make sure you are the only person in the server with that name (no alts)
 - make sure to have your **DMS open**
 - if you **don't see** a "⏰" reaction on your huntbot message, then you might want to [join our support server](https://discord.gg/KwfCk7r) and we'll help you
-
-### Reaction doesn't respond to my commands??
-
-- [first step](https://github.com/MaxiEurope/reaction-faq#step-one)
-- @mention it and use the correct prefix `!r`
-- the bot might be offline / restarting, check later with `!r ping`
-- your server is in a broken shard, kick and [re-add the bot](https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot&permissions=347200)
-- if you were spamming reaction bot commands then you're very likely temp-blacklisted - just wait a few minutes
-- if the bot is still not responding then you're banned
-
-### How do I get some in-depth help on a specific command?
-
-- `!r help command`, replace `command` with an actual command name - `!r help quest` for example
 
 ### How do I enable certain custom owo patreon commands?
 
@@ -137,39 +125,22 @@
 - saying `owo quest` in the quest channel automatically adds the quest to the list.
 - you can lock your quest using `owo quest lock X` if you don't want your quest to show up
 
-### TMP
-
 - you can remove **your quest** by doing `!r q remove ID`, replace ID with the quest ID that can be found [here](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/questid.png?raw=true)
 
-### I gave @User a cookie, but the quest didn't update??
+### What are the other quest settings?
 
-- the bot will only update quests in the quest channel
+- toggle whether the bot should add cowoncy quests to the list using `!r s questcash`
 
-### I found an error / bug in the quest system, help?
+- you can block quests from new members (members that have joined recently, 3 days for example) using `!r s questage set 3d`
 
-- the quest system is fairly new, please report any bugs by doing `!r report` or by joining our [support server](https://discord.gg/KwfCk7r)
+- the bot can automatically remove quests from the list if they haven't been updated in a certain amount of time
+- use the `!r s questremove` command to customize this setting
 
-### Why is there a snail reaction on my message?
+### How do I change the quest message?
 
-- this is an indicator that you're on a command cooldown, just wait and get familiar with the command cooldown by doing `!r help command`
-- spamming commands while being on cooldown will get you temp-blacklisted
-
-### Why is XYZ command cooldown so high??
-
-- reaction bot is being used by many users at the same time, decreasing the cooldown would rate-limit the bot and make it even more slower
-
-### How does the hb command work?
-
-- do `!r help hb`
-- the `-radar` tag allows you to set a radar lvl, up to 1k
-- the `-patreon` tag allows you to get patreon animals
-- friendly reminder: this is just a visualizer and the shown animals will not get added to your zoo
-- you can set a max of 5760 animals
-- example: `!r hb 5760 -patreon -250` (5760 animals, patreon animals, radar lvl 250)
-
-### How does the owostats command work?
-
-- enable the owohunt reminder for example (`!r owoh on`), and the number in the **grinding** field will increase every time you get mentioned by the bot
+- `!r q embed color #00ff00` to change the embed color to green for example
+- use `!r q embed title some_text` to change the embed title
+- do the same for the embed footer (at the bottom of the message) using `!r q embed footer some_text`
 
 ### How does the zoo command work?
 
@@ -177,17 +148,17 @@
 - visit discord's [Where can I find my User/Server/Message ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) article and read
 - after enabling the developer mode on your device/platform.. whatever, copy the message ID of your zoo (or multiple message IDs if your zoo has more than one message) and do `!r zoo MESSAGE_ID`
 
-- example for **a single message zoo**
+- **first message ID**
 
-<a href="https://github.com/MaxiEurope/reaction-faq">
-    <img src="https://github.com/MaxiEurope/reaction-faq/blob/main/assets/zoosingle.png?raw=true" width="550">
-</a>
+![first msg id](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/zoo_first.png?raw=true)
 
-- example for **multi message zoo**
+- **second message ID**
 
-<a href="https://github.com/MaxiEurope/reaction-faq">
-    <img src="https://github.com/MaxiEurope/reaction-faq/blob/main/assets/zoomultiple.png?raw=true" width="800">
-</a>
+![second msg id](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/zoo_second.png?raw=true)
+
+- **zoo result**
+
+![zoo result](https://github.com/MaxiEurope/reaction-faq/blob/main/assets/zoo_result.png?raw=true)
 
 ### How does the reminder command work?
 
@@ -196,8 +167,32 @@
 - example 1.: `!r rm owo daily in 1day`, example 2.: `!r rm do homework and read a book in 1 week and 20 h`
 
 - delete your reminder by doing `!r rm delete ID`, get your reminder ID by doing `!r rm list`
-- you can set a timezone for the reminder list by looking up your timezone [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
-- you can now set your timezone by doing `!r rm timezone Australia/Melbourne` for example
+
+### Reaction doesn't respond to my commands??
+
+- [first step](https://github.com/MaxiEurope/reaction-faq#step-one)
+- @mention it and use the correct prefix `!r`
+- you might have disabled the default prefix, [see how to fix it here](https://github.com/MaxiEurope/reaction-faq#how-to-set-a-custom-prefix)
+- the bot might be offline / restarting, check later with `!r ping`
+- your server is in a broken shard, kick and [re-add the bot](https://discord.com/oauth2/authorize?client_id=519287796549156864&scope=bot&permissions=347200)
+- if you were spamming reaction bot commands then you're very likely temp-blacklisted - just wait a few minutes
+- if the bot is still not responding then you're banned
+
+### How to set a custom prefix?
+
+- `!r s prefix set x` will set reaction bot's prefix to `x`
+- you can remove a custom prefix using `!r s prefix remove`
+- you can also remove the default `!r` prefix using `!r s default`
+- ping the bot and use its @mention (@reaction s prefix) if you forgot your custom prefix
+- use `@reaction s default` if you accidentally disabled the default prefix
+
+### How do I get some in-depth help on a specific command?
+
+- `!r help command`, replace `command` with an actual command name - `!r help quest` for example
+
+### I found an error / bug in the bot, help?
+
+- please report any bugs via `!r report` or by joining our [support server](https://discord.gg/KwfCk7r)
 
 
 ### Got an unanswered question? Ask in our [support server](https://discord.gg/KwfCk7r)
