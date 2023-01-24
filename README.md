@@ -199,6 +199,17 @@
 - {USER} for instance will be replaced with your @User mention
 - {GOAL} with your custom goal (`!r owo goal` for example)
 
+### How do I customize ✨embed reminders✨?
+
+- redeem your reminder using `!r g redeem ID`
+- visit [https://discohook.org/](https://discohook.org/?data=eyJtZXNzYWdlcyI6W3siZGF0YSI6eyJjb250ZW50IjpudWxsLCJlbWJlZHMiOlt7ImNvbG9yIjpudWxsfV0sImF0dGFjaG1lbnRzIjpbXX19XX0) | (https://discohook.org/ if the link doesn't work)
+- select "Embed 1" and customize your embed
+- once done, click "JSON Data Editor" and "Copy to Clipboard"
+- do `!r g embed ID JSON` and replace JSON with the code you just copied
+- enable the reminder using `!r g enable ID` and your embed reminder should show up
+
+- you can view your current embed reminder in Discord via `!r g view ID`
+
 ### Reaction doesn't respond to my commands??
 
 - [first step](https://github.com/MaxiEurope/reaction-faq#step-one)
